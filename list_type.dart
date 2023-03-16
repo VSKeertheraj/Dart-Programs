@@ -5,7 +5,7 @@ void main(){
     myList[0]=47;
 	print(myList);
 
-	 var emptyList=[];
+	 var emptyList=[]; // we can create an empty list for future use
     print(emptyList);
 
     myList.add(32); //add a single element to list
