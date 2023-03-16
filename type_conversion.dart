@@ -5,7 +5,7 @@ void main(){
   print('$a + $b = $c');
 
   var d=3,f;
-  var e='3.2';// converting int to double
+  var e='3.2';// converting String to double
   f=d + double.parse(e);
   print('$d + $e = $f');
 
