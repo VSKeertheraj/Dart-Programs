@@ -14,10 +14,10 @@ void main(){
     myList.insertAll(4,[46,78,89]); // inserting multiple elements to the list at 4th Position 
     print(myList);
     
-    myList.remove(32); // removes an element from list
+    myList.remove(32); // removes an element from list *remember if only one is exists
     print(myList);
 
-    myList.removeAll([46,78,89]);  // removes the mentioned elements
+    myList.removeAt(2);  // if we have two or more values of same name we can use position 
 	print(myList);
     
 
