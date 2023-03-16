@@ -1,11 +1,11 @@
 void main(){
 	var myList=[1,2,3,4]; //create a list
 	print(myList);
-	
-    myList[0]=47; // change the value in position 0
-    print(myList);
-    
-    var emptyList=[]; // we can create an empty list in Dart too
+
+    myList[0]=47;
+	print(myList);
+
+	 var emptyList=[];
     print(emptyList);
 
     myList.add(32); //add a single element to list
@@ -25,6 +25,9 @@ void main(){
 
     myList.removeAt(2);  // if we have two or more values of same name we can use position 
 	print(myList);
+
+	var mixedList=["John","Simon",1,2,3,"J"];
+	print(mixedList);
     
 
 
