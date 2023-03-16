@@ -10,4 +10,4 @@ void main(){
 
 }
 
-/*Other than this we have list and map.We will discuss that in the following programs*/
+/*Other than this we have dynamic,list and map.We will discuss that in the following programs*/
