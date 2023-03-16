@@ -1,6 +1,12 @@
 void main(){
 	var myList=[1,2,3,4]; //create a list
 	print(myList);
+	
+    myList[0]=47; // change the value in position 0
+    print(myList);
+    
+    var emptyList=[]; // we can create an empty list in Dart too
+    print(emptyList);
 
     myList.add(32); //add a single element to list
     print(myList);
