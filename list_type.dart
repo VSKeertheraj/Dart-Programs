@@ -14,6 +14,12 @@ void main(){
     myList.insertAll(4,[46,78,89]); // inserting multiple elements to the list at 4th Position 
     print(myList);
     
+    myList.remove(32); // removes an element from list
+    print(myList);
+
+    myList.removeAll([46,78,89]);  // removes the mentioned elements
+	print(myList);
+    
 
 
 }
