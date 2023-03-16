@@ -25,8 +25,11 @@ void main(){
 
     myList.removeAt(2);  // if we have two or more values of same name we can use position 
 	print(myList);
+	
+	myList.clear(); // removes everything from list
+	print(myList);
 
-	var mixedList=["John","Simon",1,2,3,"J"]; // makes a list combination of integers and Strings
+    var mixedList=["John","Simon",1,2,3,"J"]; // makes a list combination of integers and Strings
 	print(mixedList);
     
 
