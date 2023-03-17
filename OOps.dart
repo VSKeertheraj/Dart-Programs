@@ -1,15 +1,16 @@
 void main(){
   Person p1= Person('John','Male',19); //first person
-  p1.showData();
+  p1.showData(); //method calling
   Person p2= Person('Jessy','Female',20); //second person
-  p2.showData();
+  p2.showData(); // method calling
   }
-  class Person // class-blueprint
+  class Person // class-blueprint(made up of properties and methods)
   {
- String? name,sex;
+ String? name,sex; // properties
   int? age;
   //constructor
-  Person(String name,sex,int age){
+  Person(String name,sex,int age)
+  {
     this.name=name;
     this.sex=sex;
     this.age=age;
